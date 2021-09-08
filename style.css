@@ -60,6 +60,10 @@
         box-shadow: 10px 10px 40px yellowgreen;
     }
     
+    #heading {
+        font-size: 40px;
+    }
+    
     #full-stack-exp {
         border-left: 5px solid;
         border-image: linear-gradient(seagreen, tomato);
