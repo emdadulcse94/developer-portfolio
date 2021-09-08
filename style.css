@@ -1,46 +1,77 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.orange-color {
-    color: orange;
-}
-
-section {
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.half-width {
-    width: 50%;
-    padding-left: 5px;
-}
-
-.half-width img {
-    width: 80%;
-}
-
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    color: white;
-    border-radius: 5px;
-    font-weight: 700;
-}
-
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-.dream-big {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    .orange-color {
+        color: orange;
+    }
+    
+    .flexible-container {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    
+    .half-width {
+        width: 50%;
+        padding-left: 5px;
+    }
+    
+    .half-width img {
+        width: 80%;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(orange, tomato);
+        padding: 10px 40px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+    
+    .top-banner {
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+    
+    .dream-big {
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .experience-area {
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    .experiences-item {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px yellowgreen;
+    }
+    
+    #full-stack-exp {
+        border-left: 5px solid;
+        border-image: linear-gradient(seagreen, tomato);
+        border-image-slice: 1;
+    }
+    
+    #web-dev-exp {
+        border-left: 5px solid;
+        border-image: linear-gradient(cyan, blue);
+        border-image-slice: 1;
+    }
+    
+    footer p {
+        text-align: center;
+    }
